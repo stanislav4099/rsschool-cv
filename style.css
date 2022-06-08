@@ -1,1 +1,196 @@
-1
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #777a7d;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+h1 {
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: #a68a74;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+  color: #a68a74;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+p {
+  color: #777a7d;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+section {
+  padding: 20px 0;
+}
+.wrapper {
+  box-shadow: 9px 4px 27px 5px rgba(0, 0, 0, 0.35);
+  width: 1440px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+.border {
+  display: block;
+  background-color: #6f5349;
+  height: 2px;
+  margin-bottom: 20px;
+}
+/* ================================= */
+
+.header {
+  text-align: center;
+}
+
+.header--background {
+  padding: 150px 0px 50px 0px;
+  background: rgb(0, 0, 0);
+}
+.contact__col {
+  display: flex;
+  align-items: center;
+}
+.contact__item {
+  padding: 0 50px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.contact__svg {
+  margin-right: 25px;
+  width: 50px;
+  background-color: #a68a74;
+}
+
+.contact__text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer {
+  font-size: 20px;
+  padding: 15px;
+  background-color: #7c5e53;
+}
+.footer__link {
+  display: block;
+  background: url(assets/img/rs_school_logo.svg) no-repeat center;
+  width: 100px;
+  height: 100px;
+}
+.footer__data {
+  color: #fff;
+}
+.footer__git {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: url(assets/img/github.svg) no-repeat center;
+  background-size: cover;
+}
+.footer__card {
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+}
+
+/* ====================================== */
+
+.main {
+  background-color: #c6c6c8;
+  padding: 70px;
+}
+.skills__box-one,
+.skill__box-second {
+  flex-basis: 50%;
+}
+.skills__list,
+.code__example {
+  padding: 20px;
+  border-left: 2px solid #6f5349;
+}
+
+.skills__item,
+.skills__progress-bar {
+  margin-bottom: 15px;
+  display: flex;
+  color: #777a7d;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.skills__item::before {
+  margin-right: 25px;
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #a68a74;
+  border-radius: 50%;
+}
+.skills__progress-bar {
+  justify-content: space-between;
+}
+.skills__progress-bar-c::after {
+  margin-left: 20px;
+  display: block;
+  content: " ";
+  width: 200px;
+  height: 20px;
+  background: linear-gradient(to right, #a68a74 20%, #7c5e53 20%, #7c5e53 80%);
+}
+.skills__progress-bar-html::after {
+  margin-left: 20px;
+  display: block;
+  content: " ";
+  width: 200px;
+  height: 20px;
+  background: linear-gradient(to right, #a68a74 40%, #7c5e53 40%, #7c5e53 80%);
+}
+.skills__progress-bar-js::after {
+  margin-left: 20px;
+  display: block;
+  content: " ";
+  width: 200px;
+  height: 20px;
+  background: linear-gradient(to right, #a68a74 30%, #7c5e53 30%, #7c5e53 70%);
+}
+
+.code__example {
+  color: #777a7d;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.border_right {
+  background-color: #7c5e53;
+}
