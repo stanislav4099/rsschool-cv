@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #777a7d;
   padding: 20px;
@@ -65,12 +67,27 @@ section {
   margin-bottom: 20px;
 }
 /* ================================= */
-
 .header {
+  background-color: #c6c6c8;
+  border-bottom: 2px solid #6f5349;
+}
+.header__menu-list {
+  justify-content: center;
+}
+
+.header__item {
+  padding: 25px;
+}
+.header__link {
+  color: #777a7d;
+  font-size: 16px;
+  font-weight: 600;
+}
+.aside {
   text-align: center;
 }
 
-.header--background {
+.aside__contact--black {
   padding: 150px 0px 50px 0px;
   background: rgb(0, 0, 0);
 }
@@ -127,7 +144,7 @@ section {
 
 .main {
   background-color: #c6c6c8;
-  padding: 70px;
+  padding: 0px 70px 70px 70px;
 }
 .skills__box-one,
 .skill__box-second {
@@ -190,4 +207,3 @@ section {
   font-weight: 600;
   font-size: 16px;
 }
-
